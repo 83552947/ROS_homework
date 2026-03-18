@@ -1,0 +1,24 @@
+# ROS工作空间过滤规则
+# 编译生成目录
+build/
+devel/
+install/
+# 日志文件
+*.log
+*.log.*
+roslog/
+# 临时文件
+*.swp
+*.swo
+*~
+.DS_Store
+# IDE配置文件（若使用VSCode/PyCharm）
+.vscode/
+.idea/
+# 二进制可执行文件（可选，若手动生成）
+*.o
+*.so
+*.a
+# Python编译文件
+__pycache__/
+*.pyc
